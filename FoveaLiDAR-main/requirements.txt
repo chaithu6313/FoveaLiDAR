@@ -1,0 +1,17 @@
+# Backend - laptop runnable, no GPU/ML framework required (NFR1, RULES.md Python)
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+numpy==1.26.4
+
+# Testing
+httpx==0.27.2
+
+# Dataset tooling - needed for the local notebooks (01/02/03/04), not for
+# running the backend/frontend, which only ever touch the synthetic adapter
+nuscenes-devkit==1.2.0   # primary dataset (nuScenes-mini) - see EXECUTION_GUIDE.md Step 1
+# remotezip==0.12.6      # only needed if using the SemanticKITTI alternative path instead - see EXECUTION_GUIDE.md
+
+# --- Training-only, used exclusively in notebooks/kaggle - never imported
+# by anything under src/mapping, src/tracking, or src/api (RULES.md Python) ---
+# torch
+# open3d

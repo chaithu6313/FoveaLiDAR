@@ -1,0 +1,15 @@
+{
+  "dataset": "nuScenes-mini",
+  "version": "v1.0-mini",
+  "class_to_id": {
+    "drivable": 0,
+    "non_drivable": 1,
+    "static_obstacle": 2,
+    "dynamic_object": 3
+  },
+  "ignore_class": {
+    "name": "unknown",
+    "id": 255
+  },
+  "num_training_classes": 4
+}

@@ -1,0 +1,86 @@
+# # Python
+# __pycache__/
+# *.py[cod]
+# .venv/
+# venv/
+# env/
+
+# # Jupyter
+# .ipynb_checkpoints/
+
+# # Datasets
+# data/
+# datasets/
+
+# # Kaggle
+# kaggle.json
+
+# # Model checkpoints
+# *.pth
+# *.pt
+# *.onnx
+
+# # Generated files
+# results/
+# outputs/
+# export/
+
+# # Virtual environments
+# venv/
+# .venv/
+
+# # VS Code
+# .vscode/
+
+# # OS
+# .DS_Store
+# Thumbs.db
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (anchored to repo root only - an unanchored "data/" also matches
+# src/data/, which is real source code, not a dataset, and must be tracked)
+/data/
+/datasets/
+
+# Kaggle
+kaggle.json
+
+# Model checkpoints
+*.pth
+*.pt
+*.onnx
+
+# Generated files
+results/
+outputs/
+export/
+
+# Virtual environments
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+# Frontend
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# SQLite runtime database
+*.db
+fovealidar.db
+
+# OS
+Thumbs.db

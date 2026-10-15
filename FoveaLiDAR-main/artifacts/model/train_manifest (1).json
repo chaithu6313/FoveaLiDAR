@@ -1,0 +1,44 @@
+{
+  "project": "SIH26053",
+  "source_dataset": "nuScenes-mini",
+  "dataset_version": "v1.0-mini",
+  "max_range_m": 100.0,
+  "feature_names": [
+    "x",
+    "y",
+    "z",
+    "intensity",
+    "range"
+  ],
+  "feature_dimension": 5,
+  "target_classes": {
+    "drivable": 0,
+    "non_drivable": 1,
+    "static_obstacle": 2,
+    "dynamic_object": 3
+  },
+  "ignore_class": "unknown",
+  "ignore_label_id": 255,
+  "preprocessing": {
+    "remove_nan": true,
+    "remove_inf": true,
+    "range_filter": true,
+    "intensity_normalized": true,
+    "planar_range_added": true
+  },
+  "dataset": {
+    "scenes": 10,
+    "frames": 404,
+    "original_points": 14026208,
+    "retained_points": 14024485,
+    "dropped_invalid": 0,
+    "dropped_out_of_range": 1723
+  },
+  "label_counts": {
+    "0": 4069869,
+    "1": 3158624,
+    "2": 2129967,
+    "3": 1001432,
+    "255": 3664593
+  }
+}
